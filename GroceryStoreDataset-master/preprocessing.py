@@ -4,7 +4,7 @@ import re
 # Read the original text file and create a new CSV file
 with open("GroceryStoreDataset-master/dataset/classes_modified.csv", "r") as infile, open("postprocessed_grocery_data.csv", "w", newline='') as outfile:
     reader = csv.reader(infile)
-    writer = csv.writer(outfile, delimiter=';')  # Change delimiter to ';'
+    writer = csv.writer(outfile, delimiter=',')  # Change delimiter to ';'
     
     # Write the header to the new CSV file
     writer.writerow(['name', 'family', 'title', 'description'])
@@ -23,6 +23,7 @@ with open("GroceryStoreDataset-master/dataset/classes_modified.csv", "r") as inf
             # Read the rest of the file as description
             information = infofile.read().strip().replace('\n', '')
             information = information.replace(';', ',')
+            information = information.replace(',', ';')
             information = re.sub(r'http\S+|www\S+', '', information)
             information = re.sub(r'(?i)Url:', '', information).strip()
 
