@@ -11,7 +11,7 @@ Chatbot to accelerate the process of online grocery shopping.
 ## Data
 
 -  The primary data source is the [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset#grocery-store-dataset).
--  The dataset has been processed into a file named `postprocessed data`.
+-  The dataset has been processed into a file named `postprocessed_grocery_data.csv`.
 -  Use the `preprocessing.py` script for details on data processing.
 -  Each grocery item is delineated with a `;` (semicolon) delimiter.
 -  This dataset version excludes images.
