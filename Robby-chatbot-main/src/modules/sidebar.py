@@ -10,7 +10,7 @@ class Sidebar:
 
     @staticmethod
     def about():
-        about = st.sidebar.expander("🧠 GrocerEase Robby ")
+        about = st.sidebar.expander("🧠 GrocerEase")
         sections = [
             "#### Robby is an AI chatbot with a conversational memory, designed to allow users to discuss their data in a more intuitive way. 📄",
             "#### It uses large language models to provide users with natural language interactions about user data content. 🌐",
