@@ -1,7 +1,7 @@
 [theme]
 base = "light"
-primaryColor = "#89CFF0"
-backgroundColor = "#E0F7FE"
-secondaryBackgroundColor = "#FFFCE4"
-textColor = "#000000"
+primaryColor = "#FF5733"               # New primary color (e.g., orange)
+backgroundColor = "#8ca9ad"           # New background color (e.g., teal)
+secondaryBackgroundColor = "38415b" #"#FFEB3B"  # New secondary background color (e.g., yellow)
+textColor = "#ffffff"                 # New text color (e.g., green)
 font = "sans serif"

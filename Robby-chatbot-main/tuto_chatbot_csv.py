@@ -45,7 +45,7 @@ if uploaded_file :
         st.session_state['generated'] = ["Hello ! Ask me anything about " + uploaded_file.name + " 🤗"]
 
     if 'past' not in st.session_state:
-        st.session_state['past'] = ["Hey ! 👋"]
+        st.session_state['past'] = "Hey Ana!"#["Hey ! 👋"]
         
     #container for the chat history
     response_container = st.container()
