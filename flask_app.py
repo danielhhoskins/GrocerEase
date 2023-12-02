@@ -85,7 +85,6 @@ app = Flask(__name__)
     
 
 # NOTE: for local testing only, do NOT deploy with your key hardcoded
-os.environ["OPENAI_API_KEY"] = "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"
 PagedCSVReader = download_loader("PagedCSVReader")
 
 llama_index.set_global_handler("simple")
